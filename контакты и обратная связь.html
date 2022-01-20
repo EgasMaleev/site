@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Новогодний плейлист</title>
+    <style>
+        .block1 {
+            min-height: 800px;
+            border: 20px solid rgb(255, 106, 0);
+        }
+        .block2 {
+            min-height: 200px;
+            border: 20px solid rgb(255, 106, 0);
+        }
+        table {
+            border: 1px solid grey;
+        }
+        th {
+            border: 1px solid grey;
+        }
+        td {
+            border: 1px solid grey;
+        }
+        #navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            border: 2px solid yellow;
+            border-radius: 20px 5px;
+            width: 550px;
+            text-align: center;
+            background-color: yellow;
+        }
+
+        #navbar li {
+            display: inline;
+        }
+
+        #navbar a {
+            color: yellow;
+            padding: 50px 100px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            width: 190px;
+        }
+
+            #navbar a:hover {
+                border-radius: 20px 5px;
+                background-color: yellow;
+            }
+    </style>
+</head>
+<body link="red">
+    <div class="block">
+        <header>
+            <h1 align="center" style="color:rgb(255, 0, 0); border: 2px solid rgb(256, 216, 0)">ОБРАТНАЯ СВЯЗЬ СО МНОЙ</h1>
+        </header>
+        <ul id="navbar">
+            <li><a href="МОИ ЛЮБИМЫЕ ИСПОЛНИТЕЛИ.html"><font color="red">МОИ ЛЮБИМЫЕ ИСПОЛНИТЕЛИ</font></a></li>
+            <li><a href="контакты и обратная связь.html"><font color="red">КОНТАКТЫ И ОБРАТНАЯ СВЯЗЬ</font></a></li>
+            <li><a href="Главная страница.html"><font color="red">НОВОГОДНИЙ ПЛЕЙЛИСТ</font></a></li>
+        </ul>
+    </div>
+    <br />
+    <h1 align="center" style="border: 20px solid rgb(255, 106, 0);">Информация об авторе данного сайта</h1>
+    <div class="block1">
+        <img src="IMG_0008.JPG" width="30%" height="30%" align="left" style="border: 20px solid rgba(0, 0, 0, 0);" />
+        <br />
+        <br />
+        <h2>Автор данного сайта - <strong>Малеев Егор Александрович</strong></h2>
+        <h3>Студент Физико-Технологического Института</h3>
+        <h3>Группы 110301 - "Электроника и Автоматика физических установок"</h3>
+        <h3>Ниже привидены мои контакты:</h3>
+        <table>
+            <tbody>
+                <tr><th colspan="2">Мои контакты</th></tr>
+                <tr>
+                    <td>VK</td>
+                    <td>https://vk.com/maleev.egas</td>
+                </tr>
+                <tr>
+                    <td>Instagram</td>
+                    <td>https://www.instagram.com/egas_maleev</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br />
+    <br />
+    <div class="block2">
+        <h2 align="center">Напишите отзыв о сайте</h2>
+        <form>
+            <input name="Name" placeholder="Ваше имя" required /><br />
+            <input name="Email" placeholder="Ваша почта" required /><br />
+            <textarea name="Message" placeholder="Ваш отзыв" required></textarea>
+            <input type="submit" value="SEND" class="submit" />
+        </form>
+    </div>
+</body>
+</html>
